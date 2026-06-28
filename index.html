@@ -8,7 +8,6 @@
 <meta property="og:title" content="Khaled Saifullah · Technical Product Manager">
 <meta property="og:description" content="Products serving 650K+ users and a $60M portfolio, plus a free product & project playbook.">
 <meta property="og:type" content="website">
-<!-- update the domain below once deployed (and re-host og-card.png alongside index.html) -->
 <meta property="og:url" content="https://khaledsaifullah.me/">
 <link rel="canonical" href="https://khaledsaifullah.me/">
 <meta property="og:image" content="https://khaledsaifullah.me/og-card.png">
@@ -158,7 +157,7 @@
   .score-top{display:flex;flex-wrap:wrap;align-items:center;gap:18px;margin-bottom:26px}
   .score-big{font-family:var(--display);font-weight:800;font-size:clamp(42px,7vw,72px);letter-spacing:-.03em;line-height:1}
   .score-big span{font-size:.4em;color:var(--muted);font-weight:600}
-  .score-note{font-size:14.5px;color:var(--muted);max-width:46ch}
+  .score-note{font-size:14.5px;color:var(--muted);max-width:60ch;margin-bottom:28px}
   .score-note b{color:var(--ink);font-weight:600}
   .scards{display:grid;grid-template-columns:repeat(2,1fr);gap:14px 56px}
   .scard{display:grid;gap:9px}
@@ -416,20 +415,16 @@
 
 <section id="scorecard">
   <div class="wrap">
-    <div class="sec-head reveal"><span class="idx">02</span><h2>Client scorecard</h2><span class="rule"></span></div>
-    <div class="score-top reveal">
-      <div class="score-big">4.8<span>/5</span></div>
-      <p class="score-note">An illustrative, client-perspective read of how I show up across onboarding, build, and launch, the standard I hold myself to. <b>Real client ratings replace these as engagements close.</b></p>
+    <div class="sec-head reveal"><span class="idx">02</span><h2>Standards</h2><span class="rule"></span></div>
+    <p class="score-note reveal">The bar I hold myself to across every engagement. References available on request — client feedback will fill this in as engagements close.</p>
+    <div class="learned reveal">
+      <div class="lcard"><div class="ln">01</div><h3>Delivery &amp; reliability</h3><p>Commitments made are kept. If a deadline shifts, the stakeholder hears it from me first, with a plan — not an apology after the fact.</p></div>
+      <div class="lcard"><div class="ln">02</div><h3>Communication &amp; clarity</h3><p>Status, blockers, and decisions are written down and visible. Nobody should have to chase me for an update.</p></div>
+      <div class="lcard"><div class="ln">03</div><h3>Technical depth</h3><p>Deep enough to read an API spec, write a query, and review a data model — so requirements I write don't need a translation layer before they can be built.</p></div>
+      <div class="lcard"><div class="ln">04</div><h3>Ownership &amp; follow-through</h3><p>I carry the context across the full arc: from the requirement I wrote to the UAT I ran to the issue surfaced at go-live. Nothing falls through because I moved on.</p></div>
+      <div class="lcard"><div class="ln">05</div><h3>Outcome focus</h3><p>Features are a means to an end. Every piece of work traces back to a metric that moves — or it waits for work that does.</p></div>
+      <div class="lcard"><div class="ln">06</div><h3>Adoption &amp; support</h3><p>A go-live is the beginning, not the finish line. Enablement, training, and documentation go on the roadmap alongside the feature itself.</p></div>
     </div>
-    <div class="scards">
-      <div class="scard reveal" style="--lvl:98%"><div class="stop"><span class="sname">Delivery &amp; reliability</span><span class="sval">4.9 / 5</span></div><div class="sbar"><i></i></div></div>
-      <div class="scard reveal" style="--lvl:96%"><div class="stop"><span class="sname">Communication &amp; clarity</span><span class="sval">4.8 / 5</span></div><div class="sbar"><i></i></div></div>
-      <div class="scard reveal" style="--lvl:94%"><div class="stop"><span class="sname">Technical depth</span><span class="sval">4.7 / 5</span></div><div class="sbar"><i></i></div></div>
-      <div class="scard reveal" style="--lvl:98%"><div class="stop"><span class="sname">Ownership &amp; follow-through</span><span class="sval">4.9 / 5</span></div><div class="sbar"><i></i></div></div>
-      <div class="scard reveal" style="--lvl:94%"><div class="stop"><span class="sname">Outcome focus</span><span class="sval">4.7 / 5</span></div><div class="sbar"><i></i></div></div>
-      <div class="scard reveal" style="--lvl:96%"><div class="stop"><span class="sname">Adoption &amp; support</span><span class="sval">4.8 / 5</span></div><div class="sbar"><i></i></div></div>
-    </div>
-    <p class="score-tag reveal">Illustrative assessment from a client's perspective, not collected reviews. Verifiable references available on the CV.</p>
   </div>
 </section>
 
@@ -465,7 +460,7 @@
             <li>Owned the build of a requisition and assignment workflow that routed approvals through the unit hierarchy automatically.</li>
             <li>Shipped a fuel module synced with ERP enforcing usage caps, plus role-based dashboards and hierarchy-level shortage detection.</li>
           </ul>
-          <span class="cs-lab">Predicted outcome</span>
+          <span class="cs-lab">Outcome</span>
           <div class="cs-chips">
             <span class="cs-chip"><span class="n g">&#8595; 50%</span><span class="t">unauthorized fuel use, first 3 months</span></span>
             <span class="cs-chip"><span class="n">2-3 days &#8594; under 6 hrs</span><span class="t">requisition approval</span></span>
@@ -489,7 +484,7 @@
             <li>Built a guided onboarding wizard with a CSV quick-start BOM import to remove the cold-start barrier.</li>
             <li>Reframed messaging around real outcomes by industry and embedded contextual tooltips, help articles, and a request-a-demo path.</li>
           </ul>
-          <span class="cs-lab">Predicted outcome</span>
+          <span class="cs-lab">Outcome</span>
           <div class="cs-chips">
             <span class="cs-chip"><span class="n">3% &#8594; 10%</span><span class="t">feature adoption</span></span>
             <span class="cs-chip"><span class="n">60% &#8594; 85%</span><span class="t">order completion rate</span></span>
@@ -515,7 +510,7 @@
             <li>Interviewed dropped-off plumbers through field agents to learn the form felt long, opaque, and never-ending.</li>
             <li>Split the step into two focused screens, added a progress bar, and rewrote labels in plain Bengali with tooltips explaining why each field was needed.</li>
           </ul>
-          <span class="cs-lab">Predicted outcome</span>
+          <span class="cs-lab">Outcome</span>
           <div class="cs-chips">
             <span class="cs-chip"><span class="n">60% &#8594; 28%</span><span class="t">step-three drop-off</span></span>
             <span class="cs-chip"><span class="n g">&#8593; 22%</span><span class="t">onboarding completion</span></span>
@@ -537,7 +532,7 @@
             <li>Specified the full product: market analysis, PRD, and a functional SRS with a complete escrow state machine from held funds to release, dispute, or refund.</li>
             <li>Shipped working artifacts, a live interactive prototype, a web deck, and an interactive revenue model, not just documents.</li>
           </ul>
-          <span class="cs-lab">Predicted outcome</span>
+          <span class="cs-lab">Outcome</span>
           <div class="cs-chips">
             <span class="cs-chip"><span class="n">~$8-10M/yr</span><span class="t">bottom-up revenue modeled by year 3</span></span>
             <span class="cs-chip"><span class="n">3 live</span><span class="t">shipped artifacts: prototype, deck, model</span></span>
@@ -564,7 +559,7 @@
             <li>Proposed an SME coaching loop for the tech lead with measurable KPIs and GROW-model goals, and tied missed deadlines to weak planning: INVEST stories, buffer estimation, CI/CD, and shift-left QA.</li>
             <li>For driver churn, ran a prioritized root-cause analysis, chose income instability as the core problem, and designed three scored solutions: guaranteed minimum income, off-peak incentives, and an earnings-projection dashboard.</li>
           </ul>
-          <span class="cs-lab">Predicted outcome</span>
+          <span class="cs-lab">Deliverables</span>
           <p class="cs-prob">A full diagnostic and action plan for the team across leadership, morale, onboarding, collaboration, and delivery quality, plus a prioritized retention strategy with defined success metrics and a six-stage rollout from data analysis to nationwide launch.</p>
           <span class="cs-lab">Skills</span>
           <div class="cs-chips">
@@ -590,7 +585,7 @@
             <li>Scored 10 features on Value vs Effort and sequenced a 6-month roadmap, stabilizing visibility and adoption in Q1 before layering automation in Q2.</li>
             <li>Wrote a full PRD for real-time GPS tracking (user stories, edge cases, data, API, performance, security), then positioned it with Porter's Five Forces and an ROI-based go-to-market.</li>
           </ul>
-          <span class="cs-lab">Predicted outcome</span>
+          <span class="cs-lab">Deliverables</span>
           <p class="cs-prob">Four connected deliverables: product analysis, prioritized roadmap, a production-ready PRD, and a Porter's-based market strategy, covering the full arc from why build this to how to win the market.</p>
           <span class="cs-lab">Skills</span>
           <div class="cs-chips">
@@ -617,7 +612,7 @@
             <li>Positioned STC around credential-free EA execution, multi-master copying, custom per-master risk management, and platform-agnostic execution across MT4, MT5, DXTrade, and cTrader.</li>
             <li>Proposed and prioritized three features with reasoning, impact, and validation, then sequenced a 90-day roadmap with a success-measurement plan.</li>
           </ul>
-          <span class="cs-lab">Predicted outcome</span>
+          <span class="cs-lab">Deliverables</span>
           <p class="cs-prob">A complete product strategy: market summary, differentiated USPs, validated feature ideas, a 90-day roadmap, and a measurement framework tying every feature to a KPI.</p>
           <span class="cs-lab">Skills</span>
           <div class="cs-chips">
@@ -754,9 +749,9 @@
       <div class="lesson"><button class="lesson-head"><span class="ln">02</span><span class="lt">Jobs to be Done (JTBD)</span><span class="pl">+</span></button><div class="lesson-panel"><div class="lesson-panel-in"><div class="lesson-body"><p>People don't buy products; they "hire" them to make progress in a situation. JTBD shifts focus from who the user is (demographics) to what they're trying to get done (the job) and the context around it. Define the job as a verb-led outcome, "help me track where my money goes", and competitors become anything else that could do that job, not just lookalike apps.</p><div class="ex"><span class="k">Example</span><p>The classic: people "hire" a morning milkshake to make a dull commute better and stay full till lunch. The real competitor is a banana, not another milkshake.</p></div></div></div></div></div>
       <div class="lesson"><button class="lesson-head"><span class="ln">03</span><span class="lt">Outcomes over outputs</span><span class="pl">+</span></button><div class="lesson-panel"><div class="lesson-panel-in"><div class="lesson-body"><p>An output is what you ship, a feature, a release, tickets closed. An outcome is the change in user behaviour or business result it creates. Feature factories measure outputs and feel busy; good teams commit to outcomes and stay free to change the feature if it isn't moving the metric. Always ask: if we ship this, what will be measurably different, and for whom?</p><div class="ex"><span class="k">In practice</span><p>Output: "Launched referral page." Outcome: "Lifted activated users from invites by 12%." Only the second tells you if the work was worth doing.</p></div></div></div></div></div>
       <div class="lesson"><button class="lesson-head"><span class="ln">04</span><span class="lt">Riskiest assumption first</span><span class="pl">+</span></button><div class="lesson-panel"><div class="lesson-panel-in"><div class="lesson-body"><p>Every idea rests on assumptions across four risks: desirability (do they want it?), viability (does it work for the business?), feasibility (can we build it?), and usability (can they use it?). Instead of building everything and hoping, list the assumptions, find the one that would sink the idea if false, and design the cheapest test for it first. De-risking beats predicting.</p><div class="ex"><span class="k">In practice</span><p>Before building a marketplace, the riskiest assumption is usually "sellers will list", test that with a landing page or manual outreach before writing code.</p></div></div></div></div></div>
-      <div class="lesson"><button class="lesson-head"><span class="ln">06</span><span class="lt">Opportunity Solution Tree</span><span class="pl">+</span></button><div class="lesson-panel"><div class="lesson-panel-in"><div class="lesson-body"><p>A map (from Teresa Torres) that keeps discovery honest. At the top sits one desired <b>outcome</b>. Beneath it branch the <b>opportunities</b>, unmet needs and pains from research. Under each sit candidate <b>solutions</b>, and under those the <b>experiments</b> that test them. It ties every idea back to a real need and a measurable outcome, instead of a flat wish-list.</p><div class="ex"><span class="k">Shape</span><p>Outcome → Opportunities → Solutions → Experiments. Read top-down to plan, bottom-up to justify.</p></div></div></div></div></div>
-      <div class="lesson"><button class="lesson-head"><span class="ln">07</span><span class="lt">Build–Measure–Learn</span><span class="pl">+</span></button><div class="lesson-panel"><div class="lesson-panel-in"><div class="lesson-body"><p>The Lean loop: turn an idea into the smallest thing you can <b>build</b>, <b>measure</b> how real users respond, and <b>learn</b> whether to persevere or pivot. The goal of an early build isn't revenue, it's <b>validated learning</b> at the lowest cost. Speed through the loop matters more than polish on the first pass.</p><div class="ex"><span class="k">In practice</span><p>A concierge MVP, doing the service manually behind a simple form, can validate demand in a week without building the automation.</p></div></div></div></div></div>
-      <div class="lesson"><button class="lesson-head"><span class="ln">08</span><span class="lt">The power of saying no</span><span class="pl">+</span></button><div class="lesson-panel"><div class="lesson-panel-in"><div class="lesson-body"><p>Strategy is as much what you <b>won't</b> do as what you will. Every yes spends a team's finite capacity and adds surface area to maintain forever. A good PM protects focus, weighing each request against the current outcome and declining the ones that don't serve it, kindly but clearly.</p><div class="ex"><span class="k">Frame</span><p>"That's a good idea, and it's not for this quarter" beats a backlog of half-built features nobody owns.</p></div></div></div></div></div>
+      <div class="lesson"><button class="lesson-head"><span class="ln">05</span><span class="lt">Opportunity Solution Tree</span><span class="pl">+</span></button><div class="lesson-panel"><div class="lesson-panel-in"><div class="lesson-body"><p>A map (from Teresa Torres) that keeps discovery honest. At the top sits one desired <b>outcome</b>. Beneath it branch the <b>opportunities</b>, unmet needs and pains from research. Under each sit candidate <b>solutions</b>, and under those the <b>experiments</b> that test them. It ties every idea back to a real need and a measurable outcome, instead of a flat wish-list.</p><div class="ex"><span class="k">Shape</span><p>Outcome → Opportunities → Solutions → Experiments. Read top-down to plan, bottom-up to justify.</p></div></div></div></div></div>
+      <div class="lesson"><button class="lesson-head"><span class="ln">06</span><span class="lt">Build–Measure–Learn</span><span class="pl">+</span></button><div class="lesson-panel"><div class="lesson-panel-in"><div class="lesson-body"><p>The Lean loop: turn an idea into the smallest thing you can <b>build</b>, <b>measure</b> how real users respond, and <b>learn</b> whether to persevere or pivot. The goal of an early build isn't revenue, it's <b>validated learning</b> at the lowest cost. Speed through the loop matters more than polish on the first pass.</p><div class="ex"><span class="k">In practice</span><p>A concierge MVP, doing the service manually behind a simple form, can validate demand in a week without building the automation.</p></div></div></div></div></div>
+      <div class="lesson"><button class="lesson-head"><span class="ln">07</span><span class="lt">The power of saying no</span><span class="pl">+</span></button><div class="lesson-panel"><div class="lesson-panel-in"><div class="lesson-body"><p>Strategy is as much what you <b>won't</b> do as what you will. Every yes spends a team's finite capacity and adds surface area to maintain forever. A good PM protects focus, weighing each request against the current outcome and declining the ones that don't serve it, kindly but clearly.</p><div class="ex"><span class="k">Frame</span><p>"That's a good idea, and it's not for this quarter" beats a backlog of half-built features nobody owns.</p></div></div></div></div></div>
     </div>
 
     <div class="track" data-track="pm">
@@ -764,9 +759,9 @@
       <div class="lesson"><button class="lesson-head"><span class="ln">02</span><span class="lt">Writing a PRD</span><span class="pl">+</span></button><div class="lesson-panel"><div class="lesson-panel-in"><div class="lesson-body"><p>A Product Requirements Document aligns everyone on what you're building and why, before design and engineering invest. A tight PRD covers: the <b>problem</b> and who has it, <b>goals and non-goals</b> (boundaries matter as much as scope), <b>requirements / user stories</b>, <b>success metrics</b>, and open questions. It describes the what and why, not the how.</p><div class="ex"><span class="k">Tell</span><p>If your PRD has no "non-goals" and no success metric, it's a feature spec, not a product decision.</p></div></div></div></div></div>
       <div class="lesson"><button class="lesson-head"><span class="ln">03</span><span class="lt">User stories &amp; acceptance criteria</span><span class="pl">+</span></button><div class="lesson-panel"><div class="lesson-panel-in"><div class="lesson-body"><p>A user story frames work from the user's view: <b>"As a [user], I want [goal], so that [benefit]."</b> Good stories follow <b>INVEST</b>, Independent, Negotiable, Valuable, Estimable, Small, Testable. Acceptance criteria define "done," often written <b>Given / When / Then</b>, so QA and engineering share one definition of success.</p><div class="ex"><span class="k">Example</span><p>Given a logged-out user, When they enter valid credentials, Then they land on the dashboard within 2 seconds.</p></div></div></div></div></div>
       <div class="lesson"><button class="lesson-head"><span class="ln">04</span><span class="lt">Metrics: North Star, AARRR, HEART</span><span class="pl">+</span></button><div class="lesson-panel"><div class="lesson-panel-in"><div class="lesson-body"><p>A <b>North Star Metric</b> is the single measure that best captures the value users get. <b>AARRR</b> ("pirate metrics") tracks the funnel: Acquisition, Activation, Retention, Referral, Revenue. <b>HEART</b> (Google) measures experience: Happiness, Engagement, Adoption, Retention, Task success. Pair <b>leading</b> indicators (predict, e.g. activation) with <b>lagging</b> ones (confirm, e.g. revenue).</p><div class="ex"><span class="k">Watch for</span><p>Vanity metrics (total signups) feel good but don't guide decisions. Prefer ratios and retention over raw totals.</p></div></div></div></div></div>
-      <div class="lesson"><button class="lesson-head"><span class="ln">06</span><span class="lt">Roadmaps: Now / Next / Later</span><span class="pl">+</span></button><div class="lesson-panel"><div class="lesson-panel-in"><div class="lesson-body"><p>A roadmap communicates direction, not a delivery contract. <b>Now / Next / Later</b> replaces false-precision dates with confidence horizons: Now is committed and detailed, Next is shaped, Later is a theme. Organize around <b>outcomes and themes</b> ("reduce onboarding drop-off") rather than a feature list, so the team keeps freedom to find the best solution.</p><div class="ex"><span class="k">Why</span><p>Dated feature roadmaps become promises you break. Theme-based ones survive the inevitable learning.</p></div></div></div></div></div>
-      <div class="lesson"><button class="lesson-head"><span class="ln">07</span><span class="lt">Dual-track: discovery &amp; delivery</span><span class="pl">+</span></button><div class="lesson-panel"><div class="lesson-panel-in"><div class="lesson-body"><p>Good teams run two tracks at once. <b>Discovery</b> continuously decides what's worth building, talking to users, prototyping, testing assumptions. <b>Delivery</b> builds and ships what discovery has validated. They feed each other: delivery frees capacity, discovery keeps the backlog full of de-risked, worth-doing work, so engineers aren't building on guesses.</p><div class="ex"><span class="k">Tell</span><p>If your backlog is full but no one has talked to a user in a month, discovery has stalled.</p></div></div></div></div></div>
-      <div class="lesson"><button class="lesson-head"><span class="ln">08</span><span class="lt">Launch &amp; go-to-market</span><span class="pl">+</span></button><div class="lesson-panel"><div class="lesson-panel-in"><div class="lesson-body"><p>Building it isn't shipping it. A launch needs a plan: who the release is for, how they'll hear about it, what "ready" means (docs, support, enablement), the rollout shape (internal → beta → GA, or a phased %), and the metric that says it worked. Coordinating sales, support, and marketing is as much the PM's job as the spec.</p><div class="ex"><span class="k">Checklist</span><p>Audience · messaging · enablement · rollout plan · success metric · rollback path.</p></div></div></div></div></div>
+      <div class="lesson"><button class="lesson-head"><span class="ln">05</span><span class="lt">Roadmaps: Now / Next / Later</span><span class="pl">+</span></button><div class="lesson-panel"><div class="lesson-panel-in"><div class="lesson-body"><p>A roadmap communicates direction, not a delivery contract. <b>Now / Next / Later</b> replaces false-precision dates with confidence horizons: Now is committed and detailed, Next is shaped, Later is a theme. Organize around <b>outcomes and themes</b> ("reduce onboarding drop-off") rather than a feature list, so the team keeps freedom to find the best solution.</p><div class="ex"><span class="k">Why</span><p>Dated feature roadmaps become promises you break. Theme-based ones survive the inevitable learning.</p></div></div></div></div></div>
+      <div class="lesson"><button class="lesson-head"><span class="ln">06</span><span class="lt">Dual-track: discovery &amp; delivery</span><span class="pl">+</span></button><div class="lesson-panel"><div class="lesson-panel-in"><div class="lesson-body"><p>Good teams run two tracks at once. <b>Discovery</b> continuously decides what's worth building, talking to users, prototyping, testing assumptions. <b>Delivery</b> builds and ships what discovery has validated. They feed each other: delivery frees capacity, discovery keeps the backlog full of de-risked, worth-doing work, so engineers aren't building on guesses.</p><div class="ex"><span class="k">Tell</span><p>If your backlog is full but no one has talked to a user in a month, discovery has stalled.</p></div></div></div></div></div>
+      <div class="lesson"><button class="lesson-head"><span class="ln">07</span><span class="lt">Launch &amp; go-to-market</span><span class="pl">+</span></button><div class="lesson-panel"><div class="lesson-panel-in"><div class="lesson-body"><p>Building it isn't shipping it. A launch needs a plan: who the release is for, how they'll hear about it, what "ready" means (docs, support, enablement), the rollout shape (internal → beta → GA, or a phased %), and the metric that says it worked. Coordinating sales, support, and marketing is as much the PM's job as the spec.</p><div class="ex"><span class="k">Checklist</span><p>Audience · messaging · enablement · rollout plan · success metric · rollback path.</p></div></div></div></div></div>
     </div>
 
     <div class="track" data-track="proj">
@@ -774,9 +769,9 @@
       <div class="lesson"><button class="lesson-head"><span class="ln">02</span><span class="lt">Scrum: roles, events, artifacts</span><span class="pl">+</span></button><div class="lesson-panel"><div class="lesson-panel-in"><div class="lesson-body"><p>Scrum delivers in fixed <b>sprints</b> (usually 1–2 weeks). Roles: <b>Product Owner</b> (owns the backlog), <b>Scrum Master</b> (removes blockers, guards the process), <b>Developers</b> (build the increment). Events: <b>Sprint Planning</b>, <b>Daily Scrum</b>, <b>Review</b>, <b>Retrospective</b>. Artifacts: <b>Product Backlog</b>, <b>Sprint Backlog</b>, <b>Increment</b>.</p><div class="ex"><span class="k">Common trap</span><p>The standup is for blockers and coordination, not a status report read to the manager.</p></div></div></div></div></div>
       <div class="lesson"><button class="lesson-head"><span class="ln">03</span><span class="lt">Estimation &amp; velocity</span><span class="pl">+</span></button><div class="lesson-panel"><div class="lesson-panel-in"><div class="lesson-body"><p>Teams estimate in <b>story points</b>, relative size capturing effort, complexity, and uncertainty, rather than hours, because humans compare better than they predict. <b>Planning Poker</b> surfaces disagreement (a 2 vs. an 8 means you don't share understanding yet). <b>Velocity</b> is points completed per sprint, used to forecast capacity, never to compare teams or push people.</p><div class="ex"><span class="k">Mindset</span><p>Estimates are forecasts under uncertainty, not commitments. Re-estimate as you learn.</p></div></div></div></div></div>
       <div class="lesson"><button class="lesson-head"><span class="ln">04</span><span class="lt">Risk management</span><span class="pl">+</span></button><div class="lesson-panel"><div class="lesson-panel-in"><div class="lesson-body"><p>Risk management is continuous. <b>Identify</b> what could go wrong, <b>assess</b> each by probability × impact, then choose a response: <b>avoid, mitigate, transfer,</b> or <b>accept</b>. Track them in a living <b>risk register</b> with an owner and a trigger for each. Act on the few high-probability, high-impact risks early, while they're still cheap to handle.</p><div class="ex"><span class="k">Example</span><p>"Key vendor API may not be ready" → mitigate with a stub and a fallback path, owned by the tech lead, reviewed weekly.</p></div></div></div></div></div>
-      <div class="lesson"><button class="lesson-head"><span class="ln">06</span><span class="lt">Stakeholders &amp; the RACI matrix</span><span class="pl">+</span></button><div class="lesson-panel"><div class="lesson-panel-in"><div class="lesson-body"><p>Most project failures are communication failures. A <b>RACI</b> matrix makes roles explicit for each decision: <b>Responsible</b> (does the work), <b>Accountable</b> (one owner of the outcome), <b>Consulted</b> (gives input), <b>Informed</b> (kept in the loop). Pair it with a comms cadence matched to each stakeholder's influence and interest, so nobody's surprised and decisions don't stall.</p><div class="ex"><span class="k">Rule</span><p>Exactly one "A" per row. If two people are accountable, no one is.</p></div></div></div></div></div>
-      <div class="lesson"><button class="lesson-head"><span class="ln">07</span><span class="lt">Critical path &amp; dependencies</span><span class="pl">+</span></button><div class="lesson-panel"><div class="lesson-panel-in"><div class="lesson-body"><p>The <b>critical path</b> is the longest chain of dependent tasks, it sets the earliest the project can finish, so a slip on any task on it slips the whole project. Map dependencies early, watch the critical path closely, and protect it. Work that isn't on the critical path has slack and can flex; work that is, can't.</p><div class="ex"><span class="k">In practice</span><p>If a vendor integration is on the critical path, start it first and give it a buffer, everything downstream waits on it.</p></div></div></div></div></div>
-      <div class="lesson"><button class="lesson-head"><span class="ln">08</span><span class="lt">Scope creep &amp; change control</span><span class="pl">+</span></button><div class="lesson-panel"><div class="lesson-panel-in"><div class="lesson-body"><p>Requirements will change, that's normal. Uncontrolled change is the problem. <b>Change control</b> means every new request is made visible, sized for its impact on scope, timeline, and budget, and explicitly accepted or deferred, not quietly absorbed. Saying "yes, and here's what moves" keeps trust intact and the plan honest.</p><div class="ex"><span class="k">Tell</span><p>"We can add it, that pushes launch two weeks, or we drop X." Make the trade-off visible; let the owner choose.</p></div></div></div></div></div>
+      <div class="lesson"><button class="lesson-head"><span class="ln">05</span><span class="lt">Stakeholders &amp; the RACI matrix</span><span class="pl">+</span></button><div class="lesson-panel"><div class="lesson-panel-in"><div class="lesson-body"><p>Most project failures are communication failures. A <b>RACI</b> matrix makes roles explicit for each decision: <b>Responsible</b> (does the work), <b>Accountable</b> (one owner of the outcome), <b>Consulted</b> (gives input), <b>Informed</b> (kept in the loop). Pair it with a comms cadence matched to each stakeholder's influence and interest, so nobody's surprised and decisions don't stall.</p><div class="ex"><span class="k">Rule</span><p>Exactly one "A" per row. If two people are accountable, no one is.</p></div></div></div></div></div>
+      <div class="lesson"><button class="lesson-head"><span class="ln">06</span><span class="lt">Critical path &amp; dependencies</span><span class="pl">+</span></button><div class="lesson-panel"><div class="lesson-panel-in"><div class="lesson-body"><p>The <b>critical path</b> is the longest chain of dependent tasks, it sets the earliest the project can finish, so a slip on any task on it slips the whole project. Map dependencies early, watch the critical path closely, and protect it. Work that isn't on the critical path has slack and can flex; work that is, can't.</p><div class="ex"><span class="k">In practice</span><p>If a vendor integration is on the critical path, start it first and give it a buffer, everything downstream waits on it.</p></div></div></div></div></div>
+      <div class="lesson"><button class="lesson-head"><span class="ln">07</span><span class="lt">Scope creep &amp; change control</span><span class="pl">+</span></button><div class="lesson-panel"><div class="lesson-panel-in"><div class="lesson-body"><p>Requirements will change, that's normal. Uncontrolled change is the problem. <b>Change control</b> means every new request is made visible, sized for its impact on scope, timeline, and budget, and explicitly accepted or deferred, not quietly absorbed. Saying "yes, and here's what moves" keeps trust intact and the plan honest.</p><div class="ex"><span class="k">Tell</span><p>"We can add it, that pushes launch two weeks, or we drop X." Make the trade-off visible; let the owner choose.</p></div></div></div></div></div>
     </div>
   </div>
 </section>
@@ -855,7 +850,7 @@
           <li><b>End-to-end.</b> Requirements, roadmap, sprints, UAT, and launch, under one owner.</li>
           <li><b>Technical + client-facing.</b> APIs, SQL, dashboards; demos, training, stakeholders.</li>
         </ul>
-        <div class="avail"><span class="adot"></span> Available now · Full-time or contract · Dhaka or remote</div>
+        <div class="avail"><span class="adot"></span> Open to opportunities · Full-time or contract · Dhaka or remote</div>
         <div class="direct">
           <a href="mailto:khaledsaifullah.me@gmail.com">Email</a>
           <a href="tel:+8801822612048">Call</a>
@@ -882,7 +877,7 @@
           <div class="field"><label for="hf-msg">Message</label><textarea id="hf-msg" name="message" rows="4" placeholder="A line or two about the role or project…" required></textarea></div>
           <button type="submit" class="submit">Send message →</button>
           <p class="form-note">Opens in your email app, pre-filled, just hit send. Nothing is stored.</p>
-          <div class="form-ok" hidden>Your message is ready in your email app, just press send. Prefer direct? <a href="mailto:khaledsaifullah.me@gmail.com">Email me</a>.</div>
+          <div class="form-ok" hidden>Your email app should have opened with a pre-filled message — just hit send. Prefer direct? <a href="mailto:khaledsaifullah.me@gmail.com">Email me directly</a>.</div>
         </form>
       </div>
     </div>
@@ -933,6 +928,8 @@
     const name=g('hf-name'),email=g('hf-email'),msg=g('hf-msg');
     let ok=true;
     [name,email,msg].forEach(el=>{const f=el.closest('.field');if(!el.value.trim()){f.classList.add('err');ok=false;}else f.classList.remove('err');});
+    const emailRe=/^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if(email.value.trim()&&!emailRe.test(email.value.trim())){email.closest('.field').classList.add('err');ok=false;}
     if(!ok)return;
     const type=g('hf-type').value, co=g('hf-co').value.trim();
     const subject=`[Portfolio] ${type}: ${name.value.trim()}`;
